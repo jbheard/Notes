@@ -1,6 +1,6 @@
 # How to Use Git
 
-[git](https://git-scm.com/) is a version control system used for 
+[git](https://git-scm.com/) is a version control system used for keeping track of files (mostly code). It lets us make "save points" and go back to them later if we need to. It is mostly used in conjunction with git servers like GitHub, that allow collaboration between people working on the same project.
 
 ## Git Basics
 
