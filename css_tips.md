@@ -102,15 +102,19 @@ And the corresponding CSS:
 }
 ```
 
-The first thing to notice is that we need ot use `position: relative` to even use `left`, this is because it doesn't work on static positioned elements (the default). The example looks like this: ![](img/css_left.png)  
+The first thing to notice is that we need ot use `position: relative` to even use `left`, this is because it doesn't work on static positioned elements (the default). The example looks like this:  
+![](img/css_left.png)  
 I have added a black bar on the left to mark the start of the parent div, and borders to show the boundaries of the elements.
 Note that `left: 5rem` here "pushes" the element 5rem away from the parent div. Because of this, the second element is right next to 
 
 By using margin-left instead, we don't need to use `position` at all (but we still *can*, if we want) and the spacing is added to both elements.
+
 ```
 .text { margin-left: 5rem; }
 ```
-~[](img/css_margin-left.png)  
+
+![](img/css_margin-left.png)
+
 As you can see, padding is added to the element itself, rather than "pushing" the element away from the parent div.
 Something to note is that the border is still tightly around the text. `margin-left` added space *outside* of the element, so the content/positioning inside will not be affected.
 
