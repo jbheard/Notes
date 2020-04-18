@@ -4,15 +4,15 @@ This repo is just notes and references for myself and others.
 
 ## Index
 
-[How to use git](git.md)  
-[Design Patterns](design_patterns.md)
-[CSS Tips & Tricks](css_tips.md)
++ [How to use git](git.md)
++ [Design Patterns](design_patterns.md)
++ [CSS Tips & Tricks](css_tips.md)
 
 
 ## TODO
 
-[Docker](docker.md)  
-[Web Applications](web_apps.md)  
++ [Docker](docker.md)
++ [Web Applications](web_apps.md)  
 
 
 #### Disclaimer
