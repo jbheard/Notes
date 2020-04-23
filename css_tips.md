@@ -2,6 +2,11 @@
 
 Note: I'm going to use "class" to refer to CSS selectors in general throughout this document. So when I say class, both `.class {}` and `#id {}` count, along with any other CSS selector.
  
++ [Code Reuse](#code-reuse)
+  + [Variables](#variables)
+  + [Separating Classes](#separating-classes)
++ [Objects Should be Standalone](#objects-should-be-standalone)
++ [margin-left vs left](#margin-left-vs-left)
 
 ## Code Reuse
 
